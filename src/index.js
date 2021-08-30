@@ -19,6 +19,7 @@ function checksExistsUserAccount(request, response, next) {
 
   request.user = user;
 
+
   return next();
 }
 
